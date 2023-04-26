@@ -1,11 +1,25 @@
 package Apoio;
 
-public class Matematica {
-
-	// AQUI FICARÃO OS ATRIBUTOS DA CLASSE
+public class Calculadora {
+	
+	// ATRIBUTOS
 	private double resultado;
+	
+	// GETTERS E SETTERS
+	public double getResultado() {
+		return resultado;
+	}
 
-	// AQUI FICARÃO OS MÉTODOS DA CLASSE
+	public void setResultado(double resultado) {
+		this.resultado = resultado;
+	}
+		
+	// CONSTRUTORES
+	public Calculadora() {
+		// TODO Auto-generated constructor stub
+	}
+
+	// METODOS
 	public void somar(double valor1, double valor2) {
 		setResultado(valor1 + valor2);
 	}
@@ -20,13 +34,5 @@ public class Matematica {
 
     public void dividir(double valor1, double valor2) {
 		setResultado(valor1 / valor2);
-	}
-
-	public double getResultado() {
-		return resultado;
-	}
-
-	public void setResultado(double resultado) {
-		this.resultado = resultado;
 	}
 }

@@ -1,13 +1,13 @@
 import javax.swing.JOptionPane;
-import Apoio.Matematica;
+import Apoio.Calculadora;
 
-public class Calculadora { 
+public class Main { 
 	
 	public static void main(String[] args) {
 
         JOptionPane.showMessageDialog(null, "Calculadora");
 
-        Matematica m = new Matematica();
+        Calculadora m = new Calculadora();
 
         int memoria;
         int selecione;
